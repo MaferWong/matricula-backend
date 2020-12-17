@@ -2,7 +2,7 @@
 
 namespace MatriculaWebApplicationEF.Migrations
 {
-    public partial class Migration2 : Migration
+    public partial class Migration1 : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
@@ -33,6 +33,20 @@ namespace MatriculaWebApplicationEF.Migrations
                 constraints: table =>
                 {
                     table.PrimaryKey("PK_Paises", x => x.Id);
+                });
+
+            migrationBuilder.CreateTable(
+                name: "Usuarios",
+                schema: "dbo",
+                columns: table => new
+                {
+                    UsuarioId = table.Column<string>(nullable: false),
+                    Contrasena = table.Column<string>(type: "varchar(50)", maxLength: 50, nullable: false),
+                    EstaActivo = table.Column<bool>(nullable: false)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_Usuarios", x => x.UsuarioId);
                 });
 
             migrationBuilder.CreateTable(
@@ -163,6 +177,10 @@ namespace MatriculaWebApplicationEF.Migrations
 
             migrationBuilder.DropTable(
                 name: "Profesores",
+                schema: "dbo");
+
+            migrationBuilder.DropTable(
+                name: "Usuarios",
                 schema: "dbo");
 
             migrationBuilder.DropTable(

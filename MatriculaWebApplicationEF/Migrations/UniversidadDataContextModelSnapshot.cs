@@ -181,6 +181,24 @@ namespace MatriculaWebApplicationEF.Migrations
                     b.ToTable("Profesores","dbo");
                 });
 
+            modelBuilder.Entity("MatriculaWebApplicationEF.Models.Usuario", b =>
+                {
+                    b.Property<string>("UsuarioId")
+                        .HasColumnType("nvarchar(450)");
+
+                    b.Property<string>("Contrasena")
+                        .IsRequired()
+                        .HasColumnType("varchar(50)")
+                        .HasMaxLength(50);
+
+                    b.Property<bool>("EstaActivo")
+                        .HasColumnType("bit");
+
+                    b.HasKey("UsuarioId");
+
+                    b.ToTable("Usuarios","dbo");
+                });
+
             modelBuilder.Entity("MatriculaWebApplicationEF.Models.Estudiante", b =>
                 {
                     b.HasOne("MatriculaWebApplicationEF.Models.Curso", "Curso")

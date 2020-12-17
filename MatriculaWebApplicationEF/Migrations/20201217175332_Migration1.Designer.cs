@@ -9,8 +9,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace MatriculaWebApplicationEF.Migrations
 {
     [DbContext(typeof(UniversidadDataContext))]
-    [Migration("20201217022246_Migration2")]
-    partial class Migration2
+    [Migration("20201217175332_Migration1")]
+    partial class Migration1
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -181,6 +181,24 @@ namespace MatriculaWebApplicationEF.Migrations
                     b.HasIndex("PaisId");
 
                     b.ToTable("Profesores","dbo");
+                });
+
+            modelBuilder.Entity("MatriculaWebApplicationEF.Models.Usuario", b =>
+                {
+                    b.Property<string>("UsuarioId")
+                        .HasColumnType("nvarchar(450)");
+
+                    b.Property<string>("Contrasena")
+                        .IsRequired()
+                        .HasColumnType("varchar(50)")
+                        .HasMaxLength(50);
+
+                    b.Property<bool>("EstaActivo")
+                        .HasColumnType("bit");
+
+                    b.HasKey("UsuarioId");
+
+                    b.ToTable("Usuarios","dbo");
                 });
 
             modelBuilder.Entity("MatriculaWebApplicationEF.Models.Estudiante", b =>

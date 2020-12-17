@@ -5,6 +5,7 @@ namespace MatriculaWebApplicationEF.DataContext
 {
     public class UniversidadDataContext : DbContext
     {
+        public DbSet<Usuario> Usuarios { get; set; }
         public DbSet<Estudiante> Estudiantes { get; set; }
         public DbSet<Profesor> Profesores { get; set; }
         public DbSet<Curso> Cursos { get; set; }
@@ -17,6 +18,7 @@ namespace MatriculaWebApplicationEF.DataContext
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
+            modelBuilder.ApplyConfiguration(new UsuarioMap());
             modelBuilder.ApplyConfiguration(new EstudianteMap());
             modelBuilder.ApplyConfiguration(new ProfesorMap());
             modelBuilder.ApplyConfiguration(new MateriaMap());

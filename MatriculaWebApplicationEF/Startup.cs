@@ -27,6 +27,8 @@ namespace MatriculaWebApplicationEF
 
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddScoped<UsuarioDomainService>();
+            services.AddScoped<UsuarioAppService>();
             services.AddScoped<EstudianteDomainService>();
             services.AddScoped<EstudianteAppService>();
             services.AddScoped<ProfesorDomainService>();
