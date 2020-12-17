@@ -31,7 +31,7 @@ namespace MatriculaWebApplicationEF.ApplicationServices
 
             var respuestaDomain = _cursoDomainServices.RegistrarCurso(cursoRequest);
 
-            var vieneConErrorEnElDomain = respuestaDomain != null;
+            var vieneConErrorEnElDomain = respuestaDomain != "Successful";
             if (vieneConErrorEnElDomain)
             {
                 return respuestaDomain;

@@ -23,7 +23,7 @@ namespace MatriculaWebApplicationEF.Controllers
 
             if (_baseDatos.Cursos.Count() == 0)
             {
-                _baseDatos.Cursos.Add(new Curso { Nombre = "Algebra" });
+                _baseDatos.Cursos.Add(new Curso { Nombre = "Informatica" });
                 _baseDatos.SaveChanges();
             }
         }
@@ -35,7 +35,7 @@ namespace MatriculaWebApplicationEF.Controllers
         }
 
         [HttpGet("{id}")]
-        public async Task<ActionResult<Curso>> GetCurso(long id)
+        public async Task<ActionResult<Curso>> GetCurso(int id)
         {
             var curso = await _baseDatos.Cursos.FirstOrDefaultAsync(q => q.Id == id);
 

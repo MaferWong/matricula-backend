@@ -6,13 +6,13 @@ namespace MatriculaWebApplicationEF.DomainServices
     {
         public string RegistrarCurso(Curso cursoRequest)
         {
-            var esNombreValid =cursoRequest.Nombre == "";
-            if (esNombreValid)
+            var esNombreValido =cursoRequest.Nombre == "";
+            if (esNombreValido)
             {
                 return "El nombre es inválido.";
             }
 
-            return null;
+            return "Successful";
         }
     }
 }

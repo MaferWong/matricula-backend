@@ -32,7 +32,37 @@ namespace UnitTestMatricula
 
             var respuesta = estudianteDomainService.RegistrarEstudiante(estudiante);
 
-            Assert.AreEqual(null, respuesta);
+            Assert.AreEqual("Successful", respuesta);
+        }
+
+        [TestMethod]
+        public void ValidarCorreo()
+        {
+            EstudianteDomainService estudianteDomainService = new EstudianteDomainService();
+            Estudiante estudiante = new Estudiante();
+            estudiante.Nombre = "Test Vanguardia";
+            estudiante.Edad = 19;
+            estudiante.Sexo = "M";
+            estudiante.Correo = "";
+
+            var respuesta = estudianteDomainService.RegistrarEstudiante(estudiante);
+
+            Assert.AreEqual("El correo es inválido", respuesta);
+        }
+
+        [TestMethod]
+        public void ValidarContrasena()
+        {
+            EstudianteDomainService estudianteDomainService = new EstudianteDomainService();
+            Estudiante estudiante = new Estudiante();
+            estudiante.Nombre = "Test Vanguardia";
+            estudiante.Edad = 19;
+            estudiante.Sexo = "M";
+            estudiante.Contrasena = "";
+
+            var respuesta = estudianteDomainService.RegistrarEstudiante(estudiante);
+
+            Assert.AreEqual("La contrasena es inválida", respuesta);
         }
     }
 }

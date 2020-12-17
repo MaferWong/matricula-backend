@@ -6,7 +6,10 @@ namespace MatriculaWebApplicationEF.DataContext
     public class UniversidadDataContext : DbContext
     {
         public DbSet<Estudiante> Estudiantes { get; set; }
+        public DbSet<Profesor> Profesores { get; set; }
         public DbSet<Curso> Cursos { get; set; }
+        public DbSet<Pais> Paises { get; set; }
+        public DbSet<Materia> Materias { get; set; }
         protected override void OnConfiguring(DbContextOptionsBuilder optionBuilder)
         {
             optionBuilder.UseSqlServer(@"Server=WONG;DataBase=UniversidadDB;Trusted_Connection=True");
@@ -15,6 +18,8 @@ namespace MatriculaWebApplicationEF.DataContext
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.ApplyConfiguration(new EstudianteMap());
+            modelBuilder.ApplyConfiguration(new ProfesorMap());
+            modelBuilder.ApplyConfiguration(new MateriaMap());
             base.OnModelCreating(modelBuilder);
         }
     }

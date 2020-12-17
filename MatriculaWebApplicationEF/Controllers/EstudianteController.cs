@@ -23,7 +23,7 @@ namespace MatriculaWebApplicationEF.Controllers
 
             if (_baseDatos.Estudiantes.Count() == 0)
             {
-                _baseDatos.Estudiantes.Add(new Estudiante { Nombre = "Josue", Edad = 25, Sexo = "M", CursoId = 1 });
+                _baseDatos.Estudiantes.Add(new Estudiante { Nombre = "Fernanda", Edad = 19, Sexo = "F", Correo = "mafer@gmail.com", Contrasena = "Contrasena123", IsActive = "true", PaisId = 1, CursoId = 1 });
                 _baseDatos.SaveChanges();
             }
         }
@@ -35,7 +35,7 @@ namespace MatriculaWebApplicationEF.Controllers
         }
 
         [HttpGet("{id}")]
-        public async Task<ActionResult<Estudiante>> GetEstudiante(long id)
+        public async Task<ActionResult<Estudiante>> GetEstudiante(int id)
         {
             var estudiante = await _baseDatos.Estudiantes.Include(q => q.Curso).FirstOrDefaultAsync(q => q.Id == id);
 
@@ -60,15 +60,6 @@ namespace MatriculaWebApplicationEF.Controllers
             return CreatedAtAction(nameof(GetEstudiante), new { id = item.Id }, item);
         }
 
-        [HttpPost("rango")]
-        public async Task<ActionResult<Estudiante>> PostEstudiante(IEnumerable<Estudiante> items)
-        {
-            _baseDatos.Estudiantes.AddRange(items);
-            await _baseDatos.SaveChangesAsync();
-
-            return CreatedAtAction(nameof(GetEstudiantes), items);
-        }
-
         [HttpDelete("{id}")]
         public async Task<IActionResult> DeleteEstudiante(int id)
         {
@@ -85,28 +76,18 @@ namespace MatriculaWebApplicationEF.Controllers
             return Ok("success");
         }
 
-        [HttpDelete("rango")]
-        public async Task<IActionResult> DeleteEstudiantes(IEnumerable<int> ids)
-        {
-            IEnumerable<Estudiante> estudiantes = _baseDatos.Estudiantes.Where(q => ids.Contains(q.Id));
-
-            if (estudiantes == null)
-            {
-                return NotFound();
-            }
-
-            _baseDatos.Estudiantes.RemoveRange(estudiantes);
-            await _baseDatos.SaveChangesAsync();
-
-            return Ok("success");
-        }
-
         [HttpPut("{id}")]
         public async Task<IActionResult> PutEstudiante(int id, Estudiante item)
         {
             if (id != item.Id)
             {
                 return BadRequest();
+            }
+
+            Pais pais = await _baseDatos.Paises.FirstOrDefaultAsync(q => q.Id == item.PaisId);
+            if (pais == null)
+            {
+                return NotFound("El pais no existe");
             }
 
             Curso curso = await _baseDatos.Cursos.FirstOrDefaultAsync(q => q.Id == item.CursoId);

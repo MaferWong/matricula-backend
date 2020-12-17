@@ -18,7 +18,19 @@ namespace MatriculaWebApplicationEF.DomainServices
                 return "Edad es inválida, debe ser mayor a 18";
             }
 
-            return null;
+            var esCorreoValido = estudianteRequest.Correo == "";
+            if (esCorreoValido)
+            {
+                return "El correo es inválido";
+            }
+
+            var esContrasenaValida = estudianteRequest.Contrasena == "";
+            if (esContrasenaValida)
+            {
+                return "La contrasena es inválida";
+            }
+
+            return "Successful";
         }
     }
 }

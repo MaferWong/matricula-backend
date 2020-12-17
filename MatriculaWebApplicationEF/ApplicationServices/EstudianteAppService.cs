@@ -13,10 +13,10 @@ namespace MatriculaWebApplicationEF.ApplicationServices
         private readonly UniversidadDataContext _baseDatos;
         private readonly EstudianteDomainService _estudianteDomainServices;
 
-        public EstudianteAppService(UniversidadDataContext baseDatos, EstudianteDomainService estudianteDomainServiceaseDatos)
+        public EstudianteAppService(UniversidadDataContext baseDatos, EstudianteDomainService estudianteDomainService)
         {
             _baseDatos = baseDatos;
-            _estudianteDomainServices = estudianteDomainServiceaseDatos;
+            _estudianteDomainServices = estudianteDomainService;
         }
 
         public async Task<string> RegistrarEstudiante(Estudiante estudianteRequest)
@@ -29,6 +29,13 @@ namespace MatriculaWebApplicationEF.ApplicationServices
                 return "El estudiante ya existe";
             }
 
+            var pais = _baseDatos.Paises.FirstOrDefault(q => q.Id == estudianteRequest.PaisId);
+            var noExistePais = pais == null;
+            if (noExistePais)
+            {
+                return "El pais no existe";
+            }
+
             var curso = _baseDatos.Cursos.FirstOrDefault(q => q.Id == estudianteRequest.CursoId);
             var noExisteCurso = curso == null;
             if (noExisteCurso)
@@ -36,10 +43,9 @@ namespace MatriculaWebApplicationEF.ApplicationServices
                 return "El curso no existe";
             }
 
-
             var respuestaDomain = _estudianteDomainServices.RegistrarEstudiante(estudianteRequest);
 
-            var vieneConErrorEnElDomain = respuestaDomain != null;
+            var vieneConErrorEnElDomain = respuestaDomain != "Successful";
             if (vieneConErrorEnElDomain)
             {
                 return respuestaDomain;

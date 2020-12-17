@@ -1,0 +1,234 @@
+﻿2020-12-16T17:24:11.0541693-06:00;VSTestExecutionThread;Info;SpecFlow+Runner execution started
+2020-12-16T17:24:11.0544072-06:00;VSTestExecutionThread;Info;SpecFlow+Runner 3.4.19 in Framework netcore31 in x86 mode execution started
+2020-12-16T17:24:11.0544120-06:00;VSTestExecutionThread;Info;TestAdapter Location: C:\Users\Wong\Documents\Projects\Matricula\Backend\MatriculaProject.Specs\bin\Debug\netcoreapp3.1\TechTalk.SpecRun.VisualStudio.TestAdapter.dll
+2020-12-16T17:24:11.0566832-06:00;VSTestExecutionThread;Info;Current UserName: 'Wong', MachineName: 'WONG'
+2020-12-16T17:24:11.0901998-06:00;VSTestExecutionThread;Info;SpecRun: running tests in C:\Users\Wong\Documents\Projects\Matricula\Backend\MatriculaProject.Specs\bin\Debug\netcoreapp3.1\MatriculaProject.Specs.dll
+2020-12-16T17:24:11.0904344-06:00;VSTestExecutionThread;Info;Output folder configured to "C:\Users\Wong\Documents\Projects\Matricula\Backend\TestResults" (default)
+2020-12-16T17:24:11.0904868-06:00;VSTestExecutionThread;Info;Profile: 
+2020-12-16T17:24:11.1405912-06:00;VSTestExecutionThread;Info;Log file path: C:\Users\Wong\Documents\Projects\Matricula\Backend\TestResults\Unnamed project__2020-12-16T172411.log
+2020-12-16T17:24:11.1479842-06:00;Thread#12;Info;Checking activation
+2020-12-16T17:24:11.2520667-06:00;Thread#12;Info;Activated.
+2020-12-16T17:24:11.2523131-06:00;Thread#12;Info;Activation check completed
+2020-12-16T17:24:11.2523849-06:00;Thread#12;Info;Starting test run
+2020-12-16T17:24:11.3483352-06:00;Thread#12;Info;Discovering target: Default
+2020-12-16T17:24:11.3485201-06:00;Thread#12;Info;Discovering tests from assembly: C:\Users\Wong\Documents\Projects\Matricula\Backend\MatriculaProject.Specs\bin\Debug\netcoreapp3.1\MatriculaProject.Specs.dll
+2020-12-16T17:24:11.4576051-06:00;Thread#12;Info;Discovered tests from assembly: C:\Users\Wong\Documents\Projects\Matricula\Backend\MatriculaProject.Specs\bin\Debug\netcoreapp3.1\MatriculaProject.Specs.dll
+2020-12-16T17:24:11.4590217-06:00:Test Suite Dump
+2020-12-16T17:24:11.4614227-06:00:#0: Unnamed project/ - 
+2020-12-16T17:24:11.4614506-06:00:#1: Default - 
+2020-12-16T17:24:11.4614546-06:00:#2: MatriculaProject.Specs - 
+2020-12-16T17:24:11.4614571-06:00:#3: Matricula - 
+2020-12-16T17:24:11.4614600-06:00:#5: RegistroProfesor - 
+2020-12-16T17:24:11.4628397-06:00:#4: Matricula de estudiantes - TestAssembly:MatriculaProject.Specs/Feature:Matricula/Scenario:Matricula+de+estudiantes
+2020-12-16T17:24:11.4629741-06:00:#6: Registro de profesores - TestAssembly:MatriculaProject.Specs/Feature:RegistroProfesor/Scenario:Registro+de+profesores
+2020-12-16T17:24:11.4630433-06:00:End: Test Suite Dump
+2020-12-16T17:24:11.4825578-06:00:Thread#0:Scheduler: get next test for thread 0
+2020-12-16T17:24:11.4846300-06:00:Thread#:Scheduler: testitem #4 from normal test queue 
+2020-12-16T17:24:11.4846980-06:00:Thread#0:Scheduler: considering testitem #4 for thread 0
+2020-12-16T17:24:11.4882067-06:00:Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+2020-12-16T17:24:11.4882183-06:00:Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+2020-12-16T17:24:11.4882211-06:00:Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:False
+2020-12-16T17:24:11.4882241-06:00:Thread#0:Scheduler: using testitem #4 for thread 0
+2020-12-16T17:24:11.4890001-06:00:Thread#0:Scheduler: Test #4 is scheduled for thread
+2020-12-16T17:24:11.4905201-06:00:Thread#0:Scheduler: with testItemExecutionIndex 0
+2020-12-16T17:24:11.4937491-06:00:Thread #0: creating new test thread executor for MatriculaProject.Specs, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null (target: Default)
+2020-12-16T17:24:11.4970466-06:00:Thread #0: Creating test assembly executor for execution model OutProc
+2020-12-16T17:24:11.4972803-06:00:Thread #0: Creating test assembly executor for execution model OutProc
+2020-12-16T17:24:11.5000912-06:00:Thread #0: using TechTalk.SpecRun.Framework.Execution.OutOfProc.StreamJsonRPC.OutOfProcessTestAssemblyExecutorHost to execute tests
+2020-12-16T17:24:11.5018692-06:00:starting Out Of Process Executor
+2020-12-16T17:24:11.5041945-06:00:Assembly resolving Microsoft.VisualStudio.Validation, Version=15.3.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+2020-12-16T17:24:11.5069844-06:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Validation' from .deps.json file
+2020-12-16T17:24:11.5069969-06:00:[AssemblyCache] Could not resolve 'Microsoft.VisualStudio.Validation' from .deps.json
+2020-12-16T17:24:11.5083360-06:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Validation' in folder 'C:\Users\Wong\Documents\Projects\Matricula\Backend\MatriculaProject.Specs\bin\Debug\netcoreapp3.1'
+2020-12-16T17:24:11.5087544-06:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Validation' to 'C:\Users\Wong\Documents\Projects\Matricula\Backend\MatriculaProject.Specs\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Validation.dll'
+2020-12-16T17:24:11.5088747-06:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Validation' to 'C:\Users\Wong\Documents\Projects\Matricula\Backend\MatriculaProject.Specs\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Validation.exe'
+2020-12-16T17:24:11.5089216-06:00:[AssemblyCache] Could not resolve 'Microsoft.VisualStudio.Validation' in folder 'C:\Users\Wong\Documents\Projects\Matricula\Backend\MatriculaProject.Specs\bin\Debug\netcoreapp3.1'
+2020-12-16T17:24:11.5091573-06:00:TargetFramework: .NETCoreApp,Version=v3.1
+2020-12-16T17:24:11.5098253-06:00:Tfm: netcoreapp3.1
+2020-12-16T17:24:11.5098408-06:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Validation' in folder 'C:\Users\Wong\Documents\Projects\Matricula\Backend\MatriculaProject.Specs\bin\Debug\netcoreapp3.1\SpecFlowPlusRunner\netcoreapp3.1'
+2020-12-16T17:24:11.5098450-06:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Validation' to 'C:\Users\Wong\Documents\Projects\Matricula\Backend\MatriculaProject.Specs\bin\Debug\netcoreapp3.1\SpecFlowPlusRunner\netcoreapp3.1\Microsoft.VisualStudio.Validation.dll'
+2020-12-16T17:24:11.5099529-06:00:[AssemblyCache] Found file 'C:\Users\Wong\Documents\Projects\Matricula\Backend\MatriculaProject.Specs\bin\Debug\netcoreapp3.1\SpecFlowPlusRunner\netcoreapp3.1\Microsoft.VisualStudio.Validation.dll' for assembly 'Microsoft.VisualStudio.Validation'
+2020-12-16T17:24:11.5116970-06:00:[AssemblyCache] Resolved 'Microsoft.VisualStudio.Validation' to C:\Users\Wong\Documents\Projects\Matricula\Backend\MatriculaProject.Specs\bin\Debug\netcoreapp3.1\SpecFlowPlusRunner\netcoreapp3.1\Microsoft.VisualStudio.Validation.dll
+2020-12-16T17:24:11.5125641-06:00:Starting callback TCP Rpc server
+2020-12-16T17:24:11.5313462-06:00:Asynchronously starting background TCP Rpc Server on port 32768
+2020-12-16T17:24:11.5313980-06:00:Started callback TCP Rpc server on port 32768
+2020-12-16T17:24:11.5314012-06:00:Starting logger TCP Rpc server
+2020-12-16T17:24:11.5333120-06:00:Asynchronously starting background TCP Rpc Server on port 32769
+2020-12-16T17:24:11.5333518-06:00:Started logger TCP Rpc server on port 32769
+2020-12-16T17:24:11.6291172-06:00:Executing test executor at 'dotnet' 'exec "C:\Users\Wong\Documents\Projects\Matricula\Backend\MatriculaProject.Specs\bin\Debug\netcoreapp3.1\SpecFlowPlusRunner\netcoreapp3.1\TechTalk.SpecRun.Framework.Executor.x86.netcoreapp3_1.dll" --remoteRunnerPid 16576 --uniqueId "2020-12-16T172411" --outputFolder "C:\Users\Wong\Documents\Projects\Matricula\Backend\TestResults" --callbackPort 32768 --loggerPort 32769' in 'C:\Users\Wong\Documents\Projects\Matricula\Backend\MatriculaProject.Specs\bin\Debug\netcoreapp3.1'
+2020-12-16T17:24:11.6372351-06:00:Executor with PID 9396 has been started successfully.
+2020-12-16T17:24:11.6404556-06:00:Out of Process Executor 9396 started
+2020-12-16T17:24:11.6404761-06:00:Waiting for endpoint
+2020-12-16T17:24:12.0427692-06:00:Assembly resolving Microsoft.VisualStudio.Threading, Version=15.3.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+2020-12-16T17:24:12.0427896-06:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Threading' from .deps.json file
+2020-12-16T17:24:12.0427925-06:00:[AssemblyCache] Could not resolve 'Microsoft.VisualStudio.Threading' from .deps.json
+2020-12-16T17:24:12.0427969-06:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Threading' in folder 'C:\Users\Wong\Documents\Projects\Matricula\Backend\MatriculaProject.Specs\bin\Debug\netcoreapp3.1'
+2020-12-16T17:24:12.0428001-06:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Threading' to 'C:\Users\Wong\Documents\Projects\Matricula\Backend\MatriculaProject.Specs\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Threading.dll'
+2020-12-16T17:24:12.0428415-06:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Threading' to 'C:\Users\Wong\Documents\Projects\Matricula\Backend\MatriculaProject.Specs\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Threading.exe'
+2020-12-16T17:24:12.0428786-06:00:[AssemblyCache] Could not resolve 'Microsoft.VisualStudio.Threading' in folder 'C:\Users\Wong\Documents\Projects\Matricula\Backend\MatriculaProject.Specs\bin\Debug\netcoreapp3.1'
+2020-12-16T17:24:12.0428820-06:00:TargetFramework: .NETCoreApp,Version=v3.1
+2020-12-16T17:24:12.0429080-06:00:Tfm: netcoreapp3.1
+2020-12-16T17:24:12.0429137-06:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Threading' in folder 'C:\Users\Wong\Documents\Projects\Matricula\Backend\MatriculaProject.Specs\bin\Debug\netcoreapp3.1\SpecFlowPlusRunner\netcoreapp3.1'
+2020-12-16T17:24:12.0429164-06:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Threading' to 'C:\Users\Wong\Documents\Projects\Matricula\Backend\MatriculaProject.Specs\bin\Debug\netcoreapp3.1\SpecFlowPlusRunner\netcoreapp3.1\Microsoft.VisualStudio.Threading.dll'
+2020-12-16T17:24:12.0429847-06:00:[AssemblyCache] Found file 'C:\Users\Wong\Documents\Projects\Matricula\Backend\MatriculaProject.Specs\bin\Debug\netcoreapp3.1\SpecFlowPlusRunner\netcoreapp3.1\Microsoft.VisualStudio.Threading.dll' for assembly 'Microsoft.VisualStudio.Threading'
+2020-12-16T17:24:12.0440037-06:00:[AssemblyCache] Resolved 'Microsoft.VisualStudio.Threading' to C:\Users\Wong\Documents\Projects\Matricula\Backend\MatriculaProject.Specs\bin\Debug\netcoreapp3.1\SpecFlowPlusRunner\netcoreapp3.1\Microsoft.VisualStudio.Threading.dll
+2020-12-16T17:24:14.0941622-06:00:Remote executor port received: 32770
+2020-12-16T17:24:14.0952077-06:00:Creating executor TCP client on port 32770
+2020-12-16T17:24:14.0964165-06:00:Created executor TCP client on port 32770
+2020-12-16T17:24:14.0964401-06:00:Connecting to remote executor TCP server
+2020-12-16T17:24:14.0986278-06:00:Connected remote executor TCP server
+2020-12-16T17:24:14.0990185-06:00:trying to connect to Out of Process Executor the 1 attempt
+2020-12-16T17:24:14.0990483-06:00:Connection to Out of Process Executor established in the 1 attempt
+2020-12-16T17:24:14.3121909-06:00:2020-12-16T17:24:14.3098621-06:00:OutOfProcessTestAssemblyExecutor: initialized for C:\Users\Wong\Documents\Projects\Matricula\Backend\MatriculaProject.Specs\bin\Debug\netcoreapp3.1\MatriculaProject.Specs.dll on test thread #0
+2020-12-16T17:24:14.3195515-06:00:Endpoint 9396 started
+2020-12-16T17:24:14.3451758-06:00:2020-12-16T17:24:14.3445225-06:00:OutOfProcessTestAssemblyExecutor: running tests...
+2020-12-16T17:24:14.4889653-06:00:2020-12-16T17:24:14.4884726-06:00:Assembly resolving TechTalk.SpecFlow, Version=3.4.0.0, Culture=neutral, PublicKeyToken=0778194805d6db41
+2020-12-16T17:24:14.4952581-06:00:2020-12-16T17:24:14.4929185-06:00:[AssemblyCache] Trying to resolve 'TechTalk.SpecFlow' from .deps.json file
+2020-12-16T17:24:14.4992428-06:00:2020-12-16T17:24:14.4988324-06:00:[AssemblyCache] Resolved 'TechTalk.SpecFlow' to 'C:\Users\Wong\.nuget\packages\specflow\3.4.8\lib\netstandard2.0\TechTalk.SpecFlow.dll'
+2020-12-16T17:24:14.6398890-06:00:2020-12-16T17:24:14.6394196-06:00:Thread#0:T:-> Loading plugin C:\Users\Wong\Documents\Projects\Matricula\Backend\MatriculaProject.Specs\bin\Debug\netcoreapp3.1\LivingDoc.SpecFlowPlugin.dll
+2020-12-16T17:24:14.6424121-06:00:2020-12-16T17:24:14.6418294-06:00:Assembly resolving TechTalk.SpecFlow, Version=3.4.0.0, Culture=neutral, PublicKeyToken=0778194805d6db41
+2020-12-16T17:24:14.6442259-06:00:2020-12-16T17:24:14.6438626-06:00:Assembly resolving LivingDoc.Dtos, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+2020-12-16T17:24:14.6450254-06:00:2020-12-16T17:24:14.6444591-06:00:[AssemblyCache] Trying to resolve 'LivingDoc.Dtos' from .deps.json file
+2020-12-16T17:24:14.6485378-06:00:2020-12-16T17:24:14.6482116-06:00:[AssemblyCache] Resolved 'LivingDoc.Dtos' to 'C:\Users\Wong\.nuget\packages\specflow.plus.livingdocplugin\3.4.211\lib\netstandard2.0\LivingDoc.Dtos.dll'
+2020-12-16T17:24:14.6528605-06:00:2020-12-16T17:24:14.6523725-06:00:Thread#0:T:-> Loading plugin C:\Users\Wong\Documents\Projects\Matricula\Backend\MatriculaProject.Specs\bin\Debug\netcoreapp3.1\SpecRun.Runtime.SpecFlowPlugin.dll
+2020-12-16T17:24:14.6545817-06:00:2020-12-16T17:24:14.6541638-06:00:Assembly resolving TechTalk.SpecFlow, Version=3.4.0.0, Culture=neutral, PublicKeyToken=0778194805d6db41
+2020-12-16T17:24:14.6607674-06:00:2020-12-16T17:24:14.6602471-06:00:Thread#0:T:-> Using default config
+2020-12-16T17:24:14.6753537-06:00:2020-12-16T17:24:14.6748432-06:00:Assembly resolving Cucumber.Messages, Version=6.0.1.0, Culture=neutral, PublicKeyToken=b10c5988214f940c
+2020-12-16T17:24:14.6759515-06:00:2020-12-16T17:24:14.6756626-06:00:[AssemblyCache] Trying to resolve 'Cucumber.Messages' from .deps.json file
+2020-12-16T17:24:14.6766636-06:00:2020-12-16T17:24:14.6763980-06:00:[AssemblyCache] Resolved 'Cucumber.Messages' to 'C:\Users\Wong\.nuget\packages\cucumber.messages\6.0.1\lib\netstandard2.0\Cucumber.Messages.dll'
+2020-12-16T17:24:14.6784151-06:00:2020-12-16T17:24:14.6780300-06:00:Assembly resolving Google.Protobuf, Version=3.7.0.0, Culture=neutral, PublicKeyToken=a7d26565bac4d604
+2020-12-16T17:24:14.6789671-06:00:2020-12-16T17:24:14.6787146-06:00:[AssemblyCache] Trying to resolve 'Google.Protobuf' from .deps.json file
+2020-12-16T17:24:14.6798072-06:00:2020-12-16T17:24:14.6793257-06:00:[AssemblyCache] Resolved 'Google.Protobuf' to 'C:\Users\Wong\.nuget\packages\google.protobuf\3.7.0\lib\netstandard1.0\Google.Protobuf.dll'
+2020-12-16T17:24:14.6925815-06:00:2020-12-16T17:24:14.6919670-06:00:Assembly resolving Microsoft.VisualStudio.TestPlatform.ObjectModel, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+2020-12-16T17:24:14.6939237-06:00:2020-12-16T17:24:14.6930262-06:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.TestPlatform.ObjectModel' from .deps.json file
+2020-12-16T17:24:14.6949419-06:00:2020-12-16T17:24:14.6945208-06:00:[AssemblyCache] Resolved 'Microsoft.VisualStudio.TestPlatform.ObjectModel' to 'C:\Users\Wong\.nuget\packages\microsoft.testplatform.objectmodel\16.5.0\lib\netstandard2.0\Microsoft.VisualStudio.TestPlatform.ObjectModel.dll'
+2020-12-16T17:24:14.7376559-06:00:2020-12-16T17:24:14.7371878-06:00:Assembly resolving Utf8Json, Version=1.3.7.0, Culture=neutral, PublicKeyToken=8a73d3ba7e392e27
+2020-12-16T17:24:14.7382971-06:00:2020-12-16T17:24:14.7379901-06:00:[AssemblyCache] Trying to resolve 'Utf8Json' from .deps.json file
+2020-12-16T17:24:14.7390162-06:00:2020-12-16T17:24:14.7387194-06:00:[AssemblyCache] Resolved 'Utf8Json' to 'C:\Users\Wong\.nuget\packages\utf8json\1.3.7\lib\netstandard2.0\Utf8Json.dll'
+2020-12-16T17:24:15.0028193-06:00:Thread#0: Test #4/0 is started on thread #0
+2020-12-16T17:24:15.0421816-06:00:2020-12-16T17:24:15.0409798-06:00:Thread#0:B:Given el nombre del estudiante es "Fernarda"
+2020-12-16T17:24:15.0636131-06:00:2020-12-16T17:24:15.0631289-06:00:Assembly resolving MatriculaWebApplicationEF, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+2020-12-16T17:24:15.0641889-06:00:2020-12-16T17:24:15.0639727-06:00:[AssemblyCache] Trying to resolve 'MatriculaWebApplicationEF' from .deps.json file
+2020-12-16T17:24:15.0654248-06:00:2020-12-16T17:24:15.0650778-06:00:[DependencyContextAssemblyCache.ResolveManagedAssembly] Resolving 'MatriculaWebApplicationEF', found in dependency map, but unable to resolve a path in ['MatriculaWebApplicationEF.dll']
+2020-12-16T17:24:15.0660793-06:00:2020-12-16T17:24:15.0658043-06:00:[AssemblyCache] Could not resolve 'MatriculaWebApplicationEF' from .deps.json
+2020-12-16T17:24:15.0681667-06:00:2020-12-16T17:24:15.0677739-06:00:[AssemblyCache] Trying to resolve 'MatriculaWebApplicationEF' in folder 'C:\Users\Wong\Documents\Projects\Matricula\Backend\MatriculaProject.Specs\bin\Debug\netcoreapp3.1'
+2020-12-16T17:24:15.0725779-06:00:2020-12-16T17:24:15.0720670-06:00:[AssemblyCache] Trying to resolve 'MatriculaWebApplicationEF' to 'C:\Users\Wong\Documents\Projects\Matricula\Backend\MatriculaProject.Specs\bin\Debug\netcoreapp3.1\MatriculaWebApplicationEF.dll'
+2020-12-16T17:24:15.0734066-06:00:2020-12-16T17:24:15.0730151-06:00:[AssemblyCache] Found file 'C:\Users\Wong\Documents\Projects\Matricula\Backend\MatriculaProject.Specs\bin\Debug\netcoreapp3.1\MatriculaWebApplicationEF.dll' for assembly 'MatriculaWebApplicationEF'
+2020-12-16T17:24:15.0754164-06:00:2020-12-16T17:24:15.0748677-06:00:[AssemblyCache] Resolved 'MatriculaWebApplicationEF' to C:\Users\Wong\Documents\Projects\Matricula\Backend\MatriculaProject.Specs\bin\Debug\netcoreapp3.1\MatriculaWebApplicationEF.dll
+2020-12-16T17:24:15.0827789-06:00:2020-12-16T17:24:15.0823122-06:00:Thread#0:T:done: MatriculaStepDefinitions.GivenElNombreDelEstudianteEs("Fernarda") (0.0s)
+2020-12-16T17:24:15.0855381-06:00:2020-12-16T17:24:15.0850518-06:00:Thread#0:B:And la edad del estudiante is 19
+2020-12-16T17:24:15.0890956-06:00:2020-12-16T17:24:15.0886986-06:00:Thread#0:T:done: MatriculaStepDefinitions.GivenLaEdadIs(19) (0.0s)
+2020-12-16T17:24:15.0896839-06:00:2020-12-16T17:24:15.0894039-06:00:Thread#0:B:And el sexo del estudiante es "F"
+2020-12-16T17:24:15.0909766-06:00:2020-12-16T17:24:15.0906683-06:00:Thread#0:T:done: MatriculaStepDefinitions.GivenElSexoEs("F") (0.0s)
+2020-12-16T17:24:15.0914284-06:00:2020-12-16T17:24:15.0912414-06:00:Thread#0:B:And el correo del estudiante es "mafer@gmail.com"
+2020-12-16T17:24:15.0942744-06:00:2020-12-16T17:24:15.0939256-06:00:Thread#0:T:done: MatriculaStepDefinitions.GivenElCorreoEs("mafer@gmail.com") (0.0s)
+2020-12-16T17:24:15.0948087-06:00:2020-12-16T17:24:15.0946162-06:00:Thread#0:B:And la contrasena del estudiante es "Contrasena123"
+2020-12-16T17:24:15.0962254-06:00:2020-12-16T17:24:15.0958613-06:00:Thread#0:T:done: MatriculaStepDefinitions.GivenLaContrasenaEs("Contrasena123") (0.0s)
+2020-12-16T17:24:15.0967320-06:00:2020-12-16T17:24:15.0964458-06:00:Thread#0:B:And el usuario del estudiante isActive es "true"
+2020-12-16T17:24:15.0985258-06:00:2020-12-16T17:24:15.0981270-06:00:Thread#0:T:done: MatriculaStepDefinitions.GivenElUsuarioIsActiveEs(True) (0.0s)
+2020-12-16T17:24:15.0991857-06:00:2020-12-16T17:24:15.0988617-06:00:Thread#0:B:And el paisId del estudiante es 1
+2020-12-16T17:24:15.1008593-06:00:2020-12-16T17:24:15.1004593-06:00:Thread#0:T:done: MatriculaStepDefinitions.GivenElPaisIdEs(1) (0.0s)
+2020-12-16T17:24:15.1013791-06:00:2020-12-16T17:24:15.1011800-06:00:Thread#0:B:And el cursoId del estudiante es 1
+2020-12-16T17:24:15.1037510-06:00:2020-12-16T17:24:15.1033978-06:00:Thread#0:T:done: MatriculaStepDefinitions.GivenElCursoIdEs(1) (0.0s)
+2020-12-16T17:24:15.1047279-06:00:2020-12-16T17:24:15.1044209-06:00:Thread#0:B:When matriculando el estudiante
+2020-12-16T17:24:15.1069252-06:00:2020-12-16T17:24:15.1065690-06:00:Thread#0:T:done: MatriculaStepDefinitions.WhenMatriculandoElEstudiante() (0.0s)
+2020-12-16T17:24:15.1077549-06:00:2020-12-16T17:24:15.1074657-06:00:Thread#0:B:Then la matricula es "Successful"
+2020-12-16T17:24:15.1093100-06:00:2020-12-16T17:24:15.1088658-06:00:Assembly resolving FluentAssertions, Version=5.10.3.0, Culture=neutral, PublicKeyToken=33f2691a05b67b6a
+2020-12-16T17:24:15.1098298-06:00:2020-12-16T17:24:15.1096155-06:00:[AssemblyCache] Trying to resolve 'FluentAssertions' from .deps.json file
+2020-12-16T17:24:15.1104949-06:00:2020-12-16T17:24:15.1101893-06:00:[AssemblyCache] Resolved 'FluentAssertions' to 'C:\Users\Wong\.nuget\packages\fluentassertions\5.10.3\lib\netcoreapp2.1\FluentAssertions.dll'
+2020-12-16T17:24:15.1182410-06:00:2020-12-16T17:24:15.1178451-06:00:Thread#0:T:done: MatriculaStepDefinitions.ThenLaMatriculaEs("Successful") (0.0s)
+2020-12-16T17:24:15.1305421-06:00:Thread#0:Scheduler: get next test for thread 0
+2020-12-16T17:24:15.1305904-06:00:Thread#:Scheduler: testitem #6 from normal test queue 
+2020-12-16T17:24:15.1305977-06:00:Thread#0:Scheduler: considering testitem #6 for thread 0
+2020-12-16T17:24:15.1306663-06:00:Thread#0:TestItem#6:testItemMatchesCurrentTestThread:UnSpecific
+2020-12-16T17:24:15.1306717-06:00:Thread#0:TestItem#6:runsOnOneOtherThreadSpecific:False
+2020-12-16T17:24:15.1306739-06:00:Thread#0:TestItem#6:runsOnOneOtherThreadUnspecific:False
+2020-12-16T17:24:15.1306762-06:00:Thread#0:Scheduler: using testitem #6 for thread 0
+2020-12-16T17:24:15.1307049-06:00:Thread#0:Scheduler: Test #6 is scheduled for thread
+2020-12-16T17:24:15.1307454-06:00:Thread#0:Scheduler: with testItemExecutionIndex 0
+2020-12-16T17:24:15.1832952-06:00:Thread#0: Test #4/0 is finished on thread #0 as Succeeded within 0.1791554 seconds
+2020-12-16T17:24:15.1861695-06:00:Thread#0: Test #6/0 is started on thread #0
+2020-12-16T17:24:15.1890925-06:00:2020-12-16T17:24:15.1887197-06:00:Thread#0:B:Given el nombre del profesor es "Josue"
+2020-12-16T17:24:15.1908699-06:00:2020-12-16T17:24:15.1905128-06:00:Thread#0:T:done: RegistroProfesorStepDefinition.GivenElNombreDelProfesorEs("Josue") (0.0s)
+2020-12-16T17:24:15.1914893-06:00:2020-12-16T17:24:15.1912426-06:00:Thread#0:B:And la edad del profesor is 25
+2020-12-16T17:24:15.1951632-06:00:2020-12-16T17:24:15.1943473-06:00:Thread#0:T:done: RegistroProfesorStepDefinition.GivenLaEdadIs(25) (0.0s)
+2020-12-16T17:24:15.1958150-06:00:2020-12-16T17:24:15.1955420-06:00:Thread#0:B:And el sexo del profesor es "M"
+2020-12-16T17:24:15.1973662-06:00:2020-12-16T17:24:15.1970724-06:00:Thread#0:T:done: RegistroProfesorStepDefinition.GivenElSexoDelProfesorEs("M") (0.0s)
+2020-12-16T17:24:15.1977844-06:00:2020-12-16T17:24:15.1976108-06:00:Thread#0:B:And el correo del profesor es "josue@gmail.com"
+2020-12-16T17:24:15.1991610-06:00:2020-12-16T17:24:15.1988331-06:00:Thread#0:T:done: RegistroProfesorStepDefinition.GivenElCorreoDelProfesorEs("josue@gmail.com") (0.0s)
+2020-12-16T17:24:15.1996888-06:00:2020-12-16T17:24:15.1994170-06:00:Thread#0:B:And la contrasena del profesor es "Contrasena123"
+2020-12-16T17:24:15.2010626-06:00:2020-12-16T17:24:15.2007505-06:00:Thread#0:T:done: RegistroProfesorStepDefinition.GivenLaContrasenaDelProfesorEs("Contrasena123") (0.0s)
+2020-12-16T17:24:15.2015131-06:00:2020-12-16T17:24:15.2012680-06:00:Thread#0:B:And el usuario del profesor isActive es "true"
+2020-12-16T17:24:15.2028643-06:00:2020-12-16T17:24:15.2025921-06:00:Thread#0:T:done: RegistroProfesorStepDefinition.GivenElUsuarioDelProfesorIsActiveEs(True) (0.0s)
+2020-12-16T17:24:15.2032330-06:00:2020-12-16T17:24:15.2030608-06:00:Thread#0:B:And el paisId del profesor es 1
+2020-12-16T17:24:15.2044687-06:00:2020-12-16T17:24:15.2042005-06:00:Thread#0:T:done: RegistroProfesorStepDefinition.GivenElPaisIdDelProfesorEs(1) (0.0s)
+2020-12-16T17:24:15.2050369-06:00:2020-12-16T17:24:15.2047632-06:00:Thread#0:B:And el materiaId del profesor es 1
+2020-12-16T17:24:15.2064558-06:00:2020-12-16T17:24:15.2061508-06:00:Thread#0:T:done: RegistroProfesorStepDefinition.GivenElMateriaIdDelProfesorEs(1) (0.0s)
+2020-12-16T17:24:15.2070483-06:00:2020-12-16T17:24:15.2067817-06:00:Thread#0:B:When registrando el profesor
+2020-12-16T17:24:15.2093302-06:00:2020-12-16T17:24:15.2087226-06:00:Thread#0:T:done: RegistroProfesorStepDefinition.WhenRegistrandoElProfesor() (0.0s)
+2020-12-16T17:24:15.2103360-06:00:2020-12-16T17:24:15.2096683-06:00:Thread#0:B:Then el registro es "Successful"
+2020-12-16T17:24:15.2120053-06:00:2020-12-16T17:24:15.2116135-06:00:Thread#0:T:done: RegistroProfesorStepDefinition.ThenElRegistroEs("Successful") (0.0s)
+2020-12-16T17:24:15.2137243-06:00:Thread#0:Scheduler: get next test for thread 0
+2020-12-16T17:24:15.2137534-06:00:Thread#:Scheduler: at the end of normal test queue
+2020-12-16T17:24:15.2137563-06:00:Thread#0:Scheduler: enumerator for thread is at end
+2020-12-16T17:24:15.2137588-06:00:Thread#0:Scheduler: No more tests for thread
+2020-12-16T17:24:15.2176172-06:00:Thread#0: Test #6/0 is finished on thread #0 as Succeeded within 0.0314077 seconds
+2020-12-16T17:24:15.2260915-06:00:2020-12-16T17:24:15.2255729-06:00:Got Deinitialize Signal
+2020-12-16T17:24:15.2308899-06:00:RPC Client disconnected, because 'Disposed'. 
+LastMessage: 
+Description:Stream has been disposed
+Exception:<none>
+2020-12-16T17:24:15.2324501-06:00:RPC Server disconnected, because 'Disposed'. 
+LastMessage: 
+Description:Reached end of stream.
+Exception:<none>
+2020-12-16T17:24:15.2342845-06:00:RPC Server disconnected, because 'Disposed'. 
+LastMessage: 
+Description:Stream has been disposed
+Exception:<none>
+2020-12-16T17:24:15.2358889-06:00:Assembly resolving System.Diagnostics.Process.resources, Version=4.2.2.0, Culture=en-US, PublicKeyToken=b03f5f7f11d50a3a
+2020-12-16T17:24:15.2359136-06:00:[AssemblyCache] Trying to resolve 'System.Diagnostics.Process.resources' from .deps.json file
+2020-12-16T17:24:15.2359163-06:00:[AssemblyCache] Could not resolve 'System.Diagnostics.Process.resources' from .deps.json
+2020-12-16T17:24:15.2359225-06:00:[AssemblyCache] Trying to resolve 'System.Diagnostics.Process.resources' in folder 'C:\Users\Wong\Documents\Projects\Matricula\Backend\MatriculaProject.Specs\bin\Debug\netcoreapp3.1'
+2020-12-16T17:24:15.2359248-06:00:[AssemblyCache] Trying to resolve 'System.Diagnostics.Process.resources' to 'C:\Users\Wong\Documents\Projects\Matricula\Backend\MatriculaProject.Specs\bin\Debug\netcoreapp3.1\System.Diagnostics.Process.resources.dll'
+2020-12-16T17:24:15.2359682-06:00:[AssemblyCache] Trying to resolve 'System.Diagnostics.Process.resources' to 'C:\Users\Wong\Documents\Projects\Matricula\Backend\MatriculaProject.Specs\bin\Debug\netcoreapp3.1\System.Diagnostics.Process.resources.exe'
+2020-12-16T17:24:15.2360062-06:00:[AssemblyCache] Could not resolve 'System.Diagnostics.Process.resources' in folder 'C:\Users\Wong\Documents\Projects\Matricula\Backend\MatriculaProject.Specs\bin\Debug\netcoreapp3.1'
+2020-12-16T17:24:15.2360144-06:00:TargetFramework: .NETCoreApp,Version=v3.1
+2020-12-16T17:24:15.2360671-06:00:Tfm: netcoreapp3.1
+2020-12-16T17:24:15.2360701-06:00:[AssemblyCache] Trying to resolve 'System.Diagnostics.Process.resources' in folder 'C:\Users\Wong\Documents\Projects\Matricula\Backend\MatriculaProject.Specs\bin\Debug\netcoreapp3.1\SpecFlowPlusRunner\netcoreapp3.1'
+2020-12-16T17:24:15.2360718-06:00:[AssemblyCache] Trying to resolve 'System.Diagnostics.Process.resources' to 'C:\Users\Wong\Documents\Projects\Matricula\Backend\MatriculaProject.Specs\bin\Debug\netcoreapp3.1\SpecFlowPlusRunner\netcoreapp3.1\System.Diagnostics.Process.resources.dll'
+2020-12-16T17:24:15.2361178-06:00:[AssemblyCache] Trying to resolve 'System.Diagnostics.Process.resources' to 'C:\Users\Wong\Documents\Projects\Matricula\Backend\MatriculaProject.Specs\bin\Debug\netcoreapp3.1\SpecFlowPlusRunner\netcoreapp3.1\System.Diagnostics.Process.resources.exe'
+2020-12-16T17:24:15.2361569-06:00:[AssemblyCache] Could not resolve 'System.Diagnostics.Process.resources' in folder 'C:\Users\Wong\Documents\Projects\Matricula\Backend\MatriculaProject.Specs\bin\Debug\netcoreapp3.1\SpecFlowPlusRunner\netcoreapp3.1'
+2020-12-16T17:24:15.2462153-06:00:[AssemblyCache] Trying to resolve 'System.Diagnostics.Process.resources' in folder 'C:\Program Files (x86)\dotnet\shared\Microsoft.AspNetCore.App\3.1.9'
+2020-12-16T17:24:15.2462349-06:00:[AssemblyCache] Trying to resolve 'System.Diagnostics.Process.resources' to 'C:\Program Files (x86)\dotnet\shared\Microsoft.AspNetCore.App\3.1.9\System.Diagnostics.Process.resources.dll'
+2020-12-16T17:24:15.2463039-06:00:[AssemblyCache] Trying to resolve 'System.Diagnostics.Process.resources' to 'C:\Program Files (x86)\dotnet\shared\Microsoft.AspNetCore.App\3.1.9\System.Diagnostics.Process.resources.exe'
+2020-12-16T17:24:15.2463490-06:00:[AssemblyCache] Could not resolve 'System.Diagnostics.Process.resources' in folder 'C:\Program Files (x86)\dotnet\shared\Microsoft.AspNetCore.App\3.1.9'
+2020-12-16T17:24:15.2466034-06:00:[AssemblyCache] Trying to resolve 'System.Diagnostics.Process.resources' in folder 'C:\Program Files (x86)\dotnet\shared\Microsoft.NETCore.App\3.1.9'
+2020-12-16T17:24:15.2466142-06:00:[AssemblyCache] Trying to resolve 'System.Diagnostics.Process.resources' to 'C:\Program Files (x86)\dotnet\shared\Microsoft.NETCore.App\3.1.9\System.Diagnostics.Process.resources.dll'
+2020-12-16T17:24:15.2466776-06:00:[AssemblyCache] Trying to resolve 'System.Diagnostics.Process.resources' to 'C:\Program Files (x86)\dotnet\shared\Microsoft.NETCore.App\3.1.9\System.Diagnostics.Process.resources.exe'
+2020-12-16T17:24:15.2467355-06:00:[AssemblyCache] Could not resolve 'System.Diagnostics.Process.resources' in folder 'C:\Program Files (x86)\dotnet\shared\Microsoft.NETCore.App\3.1.9'
+2020-12-16T17:24:15.2468646-06:00:[AssemblyCache] Trying to resolve 'System.Diagnostics.Process.resources' in folder 'C:\Program Files (x86)\dotnet\shared\Microsoft.WindowsDesktop.App\3.1.9'
+2020-12-16T17:24:15.2468719-06:00:[AssemblyCache] Trying to resolve 'System.Diagnostics.Process.resources' to 'C:\Program Files (x86)\dotnet\shared\Microsoft.WindowsDesktop.App\3.1.9\System.Diagnostics.Process.resources.dll'
+2020-12-16T17:24:15.2469153-06:00:[AssemblyCache] Trying to resolve 'System.Diagnostics.Process.resources' to 'C:\Program Files (x86)\dotnet\shared\Microsoft.WindowsDesktop.App\3.1.9\System.Diagnostics.Process.resources.exe'
+2020-12-16T17:24:15.2469520-06:00:[AssemblyCache] Could not resolve 'System.Diagnostics.Process.resources' in folder 'C:\Program Files (x86)\dotnet\shared\Microsoft.WindowsDesktop.App\3.1.9'
+2020-12-16T17:24:15.2481925-06:00:Assembly resolving System.Diagnostics.Process.resources, Version=4.2.2.0, Culture=en, PublicKeyToken=b03f5f7f11d50a3a
+2020-12-16T17:24:15.2573167-06:00:Thread#-1:Scheduler: get next test for thread -1
+2020-12-16T17:24:15.2573505-06:00:Thread#:Scheduler: at the end of normal test queue
+2020-12-16T17:24:15.2573545-06:00:Thread#-1:Scheduler: enumerator for thread is at end
+2020-12-16T17:24:15.2610013-06:00;Thread#12;Info;test run finished
+2020-12-16T17:24:15.2611975-06:00;Thread#12;Info;publishing test results
+2020-12-16T17:24:15.2629991-06:00;Thread#12;Info;Not publishing results.
+2020-12-16T17:24:15.2637212-06:00;Thread#12;Info;test results published
+2020-12-16T17:24:15.2638053-06:00;Thread#12;Info;generating reports
+2020-12-16T17:24:15.3855848-06:00;Thread#12;Info;Starting external report generation process
+2020-12-16T17:24:16.9957278-06:00;Thread#12;Info;Successfully generated reports.
+2020-12-16T17:24:16.9981239-06:00;Thread#12;Info;Successfully generated reports
+2020-12-16T17:24:17.0041043-06:00:Total: 2
+2020-12-16T17:24:17.0061553-06:00:Succeeded: 2
+2020-12-16T17:24:17.0064758-06:00:Ignored: 0
+2020-12-16T17:24:17.0067561-06:00:Pending: 0
+2020-12-16T17:24:17.0067646-06:00:Skipped: 0
+2020-12-16T17:24:17.0070267-06:00:Failed: 0
+2020-12-16T17:24:17.0154977-06:00;VSTestExecutionThread;Info;Adding attachments to VSTest
+2020-12-16T17:24:17.0156124-06:00;VSTestExecutionThread;Info;adding Test Execution Report 'C:\Users\Wong\Documents\Projects\Matricula\Backend\TestResults\Unnamed project__2020-12-16T172411.html'
+========== End of log file ==========
