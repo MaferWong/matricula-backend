@@ -9,7 +9,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace MatriculaWebApplicationEF.Migrations
 {
     [DbContext(typeof(UniversidadDataContext))]
-    [Migration("20201217175332_Migration1")]
+    [Migration("20201217225143_Migration1")]
     partial class Migration1
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -45,7 +45,6 @@ namespace MatriculaWebApplicationEF.Migrations
                         .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
                     b.Property<string>("Contrasena")
-                        .IsRequired()
                         .HasColumnType("varchar(50)")
                         .HasMaxLength(50);
 
@@ -62,7 +61,6 @@ namespace MatriculaWebApplicationEF.Migrations
                         .HasMaxLength(50);
 
                     b.Property<string>("IsActive")
-                        .IsRequired()
                         .HasColumnType("varchar(50)");
 
                     b.Property<string>("Nombre")
@@ -141,7 +139,6 @@ namespace MatriculaWebApplicationEF.Migrations
                         .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
                     b.Property<string>("Contrasena")
-                        .IsRequired()
                         .HasColumnType("varchar(50)")
                         .HasMaxLength(50);
 
@@ -155,7 +152,6 @@ namespace MatriculaWebApplicationEF.Migrations
                         .HasMaxLength(50);
 
                     b.Property<string>("IsActive")
-                        .IsRequired()
                         .HasColumnType("varchar(50)");
 
                     b.Property<int>("MateriaId")

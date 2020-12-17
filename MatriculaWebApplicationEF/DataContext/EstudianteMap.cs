@@ -15,8 +15,8 @@ namespace MatriculaWebApplicationEF.DataContext
             builder.Property(e => e.Edad).HasColumnType("int").HasMaxLength(50).IsRequired();
             builder.Property(e => e.Sexo).HasColumnType("varchar(50)").HasMaxLength(50).IsRequired();
             builder.Property(e => e.Correo).HasColumnType("varchar(50)").HasMaxLength(50).IsRequired();
-            builder.Property(e => e.Contrasena).HasColumnType("varchar(50)").HasMaxLength(50).IsRequired();
-            builder.Property(e => e.IsActive).HasColumnType("varchar(50)").IsRequired();
+            builder.Property(e => e.Contrasena).HasColumnType("varchar(50)").HasMaxLength(50);
+            builder.Property(e => e.IsActive).HasColumnType("varchar(50)");
 
             builder.HasOne(e => e.Pais)
                 .WithMany(e => e.Estudiantes)

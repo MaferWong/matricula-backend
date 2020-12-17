@@ -82,8 +82,8 @@ namespace MatriculaWebApplicationEF.Migrations
                     Edad = table.Column<int>(type: "int", maxLength: 50, nullable: false),
                     Sexo = table.Column<string>(type: "varchar(50)", maxLength: 50, nullable: false),
                     Correo = table.Column<string>(type: "varchar(50)", maxLength: 50, nullable: false),
-                    Contrasena = table.Column<string>(type: "varchar(50)", maxLength: 50, nullable: false),
-                    IsActive = table.Column<string>(type: "varchar(50)", nullable: false),
+                    Contrasena = table.Column<string>(type: "varchar(50)", maxLength: 50, nullable: true),
+                    IsActive = table.Column<string>(type: "varchar(50)", nullable: true),
                     PaisId = table.Column<int>(nullable: false),
                     CursoId = table.Column<int>(nullable: false)
                 },
@@ -115,8 +115,8 @@ namespace MatriculaWebApplicationEF.Migrations
                     Edad = table.Column<int>(type: "int", maxLength: 50, nullable: false),
                     Sexo = table.Column<string>(type: "varchar(50)", maxLength: 50, nullable: false),
                     Correo = table.Column<string>(type: "varchar(50)", maxLength: 50, nullable: false),
-                    Contrasena = table.Column<string>(type: "varchar(50)", maxLength: 50, nullable: false),
-                    IsActive = table.Column<string>(type: "varchar(50)", nullable: false),
+                    Contrasena = table.Column<string>(type: "varchar(50)", maxLength: 50, nullable: true),
+                    IsActive = table.Column<string>(type: "varchar(50)", nullable: true),
                     PaisId = table.Column<int>(nullable: false),
                     MateriaId = table.Column<int>(nullable: false)
                 },

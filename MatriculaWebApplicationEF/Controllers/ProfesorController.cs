@@ -31,13 +31,13 @@ namespace MatriculaWebApplicationEF.Controllers
         [HttpGet]
         public async Task<ActionResult<IEnumerable<Profesor>>> GetProfesores()
         {
-            return await _baseDatos.Profesores.Include(q => q.Materia).ToListAsync();
+            return await _baseDatos.Profesores.Include(q => q.Pais).Include(q => q.Materia).ToListAsync();
         }
 
         [HttpGet("{id}")]
         public async Task<ActionResult<Profesor>> GetProfesor(int id)
         {
-            var profesor = await _baseDatos.Profesores.Include(q => q.Materia).FirstOrDefaultAsync(q => q.Id == id);
+            var profesor = await _baseDatos.Profesores.Include(q => q.Pais).Include(q => q.Materia).FirstOrDefaultAsync(q => q.Id == id);
 
             if (profesor == null)
             {

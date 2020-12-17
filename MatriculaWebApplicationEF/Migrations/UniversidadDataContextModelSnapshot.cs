@@ -43,7 +43,6 @@ namespace MatriculaWebApplicationEF.Migrations
                         .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
                     b.Property<string>("Contrasena")
-                        .IsRequired()
                         .HasColumnType("varchar(50)")
                         .HasMaxLength(50);
 
@@ -60,7 +59,6 @@ namespace MatriculaWebApplicationEF.Migrations
                         .HasMaxLength(50);
 
                     b.Property<string>("IsActive")
-                        .IsRequired()
                         .HasColumnType("varchar(50)");
 
                     b.Property<string>("Nombre")
@@ -139,7 +137,6 @@ namespace MatriculaWebApplicationEF.Migrations
                         .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
                     b.Property<string>("Contrasena")
-                        .IsRequired()
                         .HasColumnType("varchar(50)")
                         .HasMaxLength(50);
 
@@ -153,7 +150,6 @@ namespace MatriculaWebApplicationEF.Migrations
                         .HasMaxLength(50);
 
                     b.Property<string>("IsActive")
-                        .IsRequired()
                         .HasColumnType("varchar(50)");
 
                     b.Property<int>("MateriaId")

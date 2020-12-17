@@ -31,13 +31,13 @@ namespace MatriculaWebApplicationEF.Controllers
         [HttpGet]
         public async Task<ActionResult<IEnumerable<Estudiante>>> GetEstudiantes()
         {
-            return await _baseDatos.Estudiantes.Include(q => q.Curso).ToListAsync();
+            return await _baseDatos.Estudiantes.Include(q => q.Pais).Include(q => q.Curso).ToListAsync();
         }
 
         [HttpGet("{id}")]
         public async Task<ActionResult<Estudiante>> GetEstudiante(int id)
         {
-            var estudiante = await _baseDatos.Estudiantes.Include(q => q.Curso).FirstOrDefaultAsync(q => q.Id == id);
+            var estudiante = await _baseDatos.Estudiantes.Include(q => q.Pais).Include(q => q.Curso).FirstOrDefaultAsync(q => q.Id == id);
 
             if (estudiante == null)
             {
