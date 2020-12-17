@@ -32,7 +32,7 @@ namespace MatriculaWebApplicationEF.ApplicationServices
                 return respuestaDomain;
             }
 
-            return "sucess";
+            return "success";
         }
     }
 }
