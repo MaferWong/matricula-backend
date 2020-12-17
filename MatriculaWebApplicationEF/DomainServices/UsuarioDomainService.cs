@@ -17,7 +17,7 @@ namespace MatriculaWebApplicationEF.DomainServices
                 return "El usuario no está activo";
             }
 
-            return "sucess";
+            return "success";
         }
     }
 }
